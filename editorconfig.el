@@ -260,7 +260,9 @@ This hook will be run even when there are no matching sections in
     (scala-mode scala-indent:step)
     (scss-mode css-indent-offset)
     (sh-mode sh-basic-offset sh-indentation)
-    (swift-mode swift-mode:basic-offset)
+    (swift-mode swift-mode:basic-offset
+                swift-mode:multiline-statement-offset
+                swift-mode:parenthesized-expression-offset)
     (tcl-mode tcl-indent-level
               tcl-continued-indent-level)
     (templ-ts-mode go-ts-mode-indent-offset js-indent-level)
